@@ -1,0 +1,28 @@
+@media(max-width: 650px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+    }
+
+    .infos {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .infos li {
+        padding: 33px 0;
+    }
+    
+    .infos li a {
+        font-size: 40px;
+        padding: 17px 40px;
+    }
+
+    .infos li a.cadastro {
+        font-size: 18px;
+        padding: 15px 23px;
+    }
+}
